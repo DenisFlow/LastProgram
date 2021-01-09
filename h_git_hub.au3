@@ -84,7 +84,9 @@ Func fnMainActionGit($onlySwitch = true)
 		ElseIf ( $search == "rem" ) Then
 			fnGetRem($past)
 		ElseIf ( $search == "pushforse" ) Then
-			fnGetRem($past)	
+			fnPushForse($past)	
+		ElseIf ( $search == "pushorigin" ) Then
+			fnPushOrig($past)	
 		EndIf		
 	EndIf
 
@@ -145,6 +147,16 @@ EndFunc
 Func fnPushForse($comment)
 	Sleep(100)
 	_CTRLPastIns("git push --force origin ")
+	If ( $comment == "" ) Then
+
+	Else
+		Send("{ENTER}")
+	EndIf	
+EndFunc
+; Smthg-----------------------------------------------
+Func fnPushOrig($comment)
+	Sleep(100)
+	_CTRLPastIns("git push -u origin ")
 	If ( $comment == "" ) Then
 
 	Else
