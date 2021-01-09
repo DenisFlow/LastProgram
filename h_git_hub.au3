@@ -82,7 +82,9 @@ Func fnMainActionGit($onlySwitch = true)
 		ElseIf ( $search == "sta" ) Then
 			fnGetStatus()		
 		ElseIf ( $search == "rem" ) Then
-			fnGetRem($past)		
+			fnGetRem($past)
+		ElseIf ( $search == "pushforse" ) Then
+			fnGetRem($past)	
 		EndIf		
 	EndIf
 
@@ -137,6 +139,16 @@ Func fnGetRem($comment)
 		Sleep(100)
 		_CTRLPastIns("git remote -v")
 		Send("{ENTER}")			
+	EndIf	
+EndFunc
+; Smthg-----------------------------------------------
+Func fnPushForse($comment)
+	Sleep(100)
+	_CTRLPastIns("git push --force origin ")
+	If ( $comment == "" ) Then
+
+	Else
+		Send("{ENTER}")
 	EndIf	
 EndFunc
 ; Smthg-----------------------------------------------
