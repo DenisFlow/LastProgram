@@ -1,0 +1,365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"winw",
+				"WinWaitActive()"
+			],
+			[
+				"2str_re",
+				"2STR_REGEXPARRAYGLOBALMATCH"
+			],
+			[
+				"win",
+				"WinActive()"
+			],
+			[
+				"1r",
+				"1regexptitle"
+			],
+			[
+				"_ctrl",
+				"_CTRL_PushSign()"
+			],
+			[
+				"1reg",
+				"1regexptitle"
+			],
+			[
+				"1t",
+				"1regexptitle"
+			],
+			[
+				"clip",
+				"ClipPut()"
+			],
+			[
+				"Stringr",
+				"StringRegExpReplace()"
+			],
+			[
+				"Else",
+				"ElseIf"
+			],
+			[
+				"proce",
+				"ProcessExists()"
+			],
+			[
+				"_arrayd",
+				"_ArrayDisplay()"
+			],
+			[
+				"_arrad",
+				"_ArrayDisplay()"
+			],
+			[
+				"isa",
+				"IsArray()"
+			],
+			[
+				"strinre",
+				"StringRegExpReplace()"
+			],
+			[
+				"Exit",
+				"ExitLoop"
+			],
+			[
+				"Arrad",
+				"_ArrayDisplay()"
+			],
+			[
+				"num",
+				"NUMPAD1 Send Key List"
+			],
+			[
+				"wina",
+				"WinActive()"
+			],
+			[
+				"home",
+				"HOME Send Key List"
+			],
+			[
+				"_ctrls",
+				"_CTRL_SHIFT_PushSign()"
+			],
+			[
+				"for",
+				"ForInNext"
+			],
+			[
+				"Stringreg",
+				"StringRegExpReplace()"
+			],
+			[
+				"cr",
+				"CRLF\t@CRLF"
+			],
+			[
+				"c",
+				"CRLF\t@CRLF"
+			],
+			[
+				"Stringre",
+				"StringRegExpReplace()"
+			],
+			[
+				"CONS",
+				"ConsoleWrite()"
+			],
+			[
+				"is",
+				"IsArray()"
+			],
+			[
+				"Not",
+				"Not"
+			],
+			[
+				"_arrd",
+				"_ArrayDisplay()"
+			],
+			[
+				"Cons",
+				"ConsoleWrite()"
+			],
+			[
+				"Win",
+				"WinActive()"
+			],
+			[
+				"Tab",
+				"TAB Send Key List"
+			],
+			[
+				"cons",
+				"ConsoleWrite()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AutoItScript/AutoIt.sublime-build",
+					""
+				],
+				[
+					"Packages/AutoItScript/AutoIt.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/AutoItScript/AutoIt.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Programming/AutoIt/LastProgram"
+	],
+	"file_history":
+	[
+		"/D/@Projects_Dzen/AutoIt/text.sql",
+		"/C/Users/User/Documents/1.txt",
+		"/D/@Projects_Dzen/AutoIt/h_Dictionaries.au3",
+		"/D/@Projects_Dzen/AutoIt/h_VariablesAndInclude.au3",
+		"/D/@Projects_Dzen/AutoIt/h_VLC.au3",
+		"/D/@Projects_Dzen/AutoIt/h_LatvianAlphabet.au3",
+		"/D/@Projects_Dzen/AutoIt/LastProgram.au3",
+		"/C/Users/User/Documents/importAnki6.txt",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/LastProgram.exe",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/test.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Wolfram Mathematica/AutoIt/@AllFastFunWolfram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/h_Wolfram.au3",
+		"/E/Projects/Windows/h_avVariablesAndIncludes.au3",
+		"/D/Old_AutoIt/Wolfram/@AllFastFunWolfram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_StopAndPlayText.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/test_Tildes.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/FilesForApps/h_dataBase.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/ChoseVoiceAndPlayClipB.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/temp.nb",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Images.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_BodyVoices.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/click_select.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/test.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/main.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Sites.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/LastProgram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Tildes.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/@WorkWithText.au3",
+		"/C/Program Files (x86)/AutoIt3/Include/TTS.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/regex_tides_birojs",
+		"/C/Program Files (x86)/AutoIt3/Include/_My_Add++.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_LaunchAndExit.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_VarAndInclude.au3",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/AutoItScript/AutoIt.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/AutoIt.sublime-settings",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/Books/Language/@Dictionary/PDF_FindReader/New folder/ābece 1. ABC-book, primer; 2. pārn. the very begin.txt",
+		"/C/Users/User/Desktop/1.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 231.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/AutoItScript/AutoIt.sublime-build",
+	"project": "LastProgram.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
