@@ -11,8 +11,8 @@
 ; #include "h_HTML.au3"
 	HotKeySet("^+{F5}", "RenewHTML")
 
-	HotKeySet("^1", "fnOnlySwitchGitBash")
-	HotKeySet("^2", "fnMakeActionGitBash")
+	HotKeySet("^!+{F11}", "fnOnlySwitchGitBash")
+	HotKeySet("#^!+{F11}", "fnMakeActionGitBash")
 
 
 #include "h_Dictionaries.au3"

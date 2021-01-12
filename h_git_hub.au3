@@ -1,6 +1,10 @@
 #include-once
 #include "h_VariablesAndInclude.au3"
 
+
+; $search = StringLeft("some\\\\", 4)
+; ConsoleWrite($search & @CRLF)
+
 Func fnOnlySwitchGitBash()
 	fnMainActionGit(True)
 EndFunc
@@ -12,7 +16,7 @@ EndFunc
 
 
 Func fnMainActionGit($onlySwitch = true)
-	ConsoleWrite("data" & @CRLF)
+	; ConsoleWrite("data" & @CRLF)
 	If ( $onlySwitch = False ) Then
 		Local $search = fnSimpleForm("GitBush")
 		If ( $search == False ) Then
@@ -32,9 +36,11 @@ Func fnMainActionGit($onlySwitch = true)
 			If ( StringRegExp(WinGetTitle($GC_H_SUBLIMETEXT), "(?<=Programming\\)AutoIt") ) Then
 				$sFind = StringRegExp(WinGetTitle($GC_H_SUBLIMETEXT), "(?<=Programming\\AutoIt\\)[^\\]+", $STR_REGEXPARRAYGLOBALMATCH)
 				$sendOpenProject = "cd ""D:\Programming\AutoIt\"				
-			ConsoleWrite("sadfasdf" & @CRLF)
+			; ConsoleWrite("sadfasdf" & @CRLF)
 				
 			EndIf
+		Else
+			Return( False )	
 		EndIf
 		If ( UBound($sFind) > 0 ) Then
 			$h_git = WinGetHandle("[REGEXPTITLE:MINGW64:.*" & $sFind[0] & ".*;REGEXPCLASS:mintty]")
@@ -55,26 +61,18 @@ Func fnMainActionGit($onlySwitch = true)
 	If ( $onlySwitch = False ) Then
 		WinWaitActive($GC_H_GITDASH)
 		$past = ""
-		If ( StringRegExp($search, ".+\\.+") ) Then
-			$inbox = $search
-			$search = StringRegExp($search, ".+?(?=\\)", $STR_REGEXPARRAYGLOBALMATCH)
-			; _ArrayDisplay($search)
-			; $past = StringRegExp($search, "(?<=\\).+", $STR_REGEXPARRAYGLOBALMATCH)
-			; _ArrayDisplay($past)
-			If ( UBound($search) > 0 ) Then
-				$search = $search[0]
-				$past = StringRegExp($inbox, "(?<=" & $search & "\\).+", $STR_REGEXPARRAYGLOBALMATCH)
-				; StringReplace(string, searchstring/start, replacestring, [occurrence], [casesense])
-				If ( UBound($search) > 0 And  ) Then
-					$past = $past[0]	
-				Else
-					$past = ""	
-				EndIf
-			Else
-				ConsoleWrite("return false" & @CRLF)
-				Return( False )
-			EndIf
+		$inbox = $search
+		Local $iPosition = StringInStr($inbox, "\\\")
+		; $search = StringRegExp($inbox, ".+?(?=\\\\\\)", $STR_REGEXPARRAYGLOBALMATCH)
+		; If ( Not UBound($search) > 0 ) Then
+		; 	Return( False )
+		; EndIf
+
+		If ( $iPosition > 0 ) Then
+			$past = StringRight($inbox, StringLen($inbox) - $iPosition - 2)
+			$search = StringLeft($inbox, $iPosition - 1)
 		EndIf
+		ConsoleWrite($search & " AND " & $past & @CRLF)
 		If ( $search == "log" ) Then
 			fnGetLog()
 		ElseIf ( $search == "com" ) Then
@@ -83,9 +81,9 @@ Func fnMainActionGit($onlySwitch = true)
 			fnGetStatus()		
 		ElseIf ( $search == "rem" ) Then
 			fnGetRem($past)
-		ElseIf ( $search == "pushforse" ) Then
+		ElseIf ( $search == "pushf" ) Then
 			fnPushForse($past)	
-		ElseIf ( $search == "pushorigin" ) Then
+		ElseIf ( $search == "pusho" ) Then
 			fnPushOrig($past)	
 		EndIf		
 	EndIf
@@ -133,7 +131,7 @@ EndFunc
 ; Smthg-----------------------------------------------
 Func fnGetRem($comment)
 	Sleep(100)
-	_CTRLPastIns("git remote set-url origin ")
+	_CTRLPastIns("git remote add origin ")
 	If ( $comment == "" ) Then
 
 	Else
